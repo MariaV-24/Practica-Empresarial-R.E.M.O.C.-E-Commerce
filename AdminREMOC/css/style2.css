@@ -1,0 +1,57 @@
+/** CSS para el boton de confirmar eliminacion**/
+/* boton eliminar alerta */
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+
+button {
+    font-size: calc(12px + (16 - 12) * ((100vw - 360px) / (1600 - 300))) !important
+}
+
+
+p {
+    font-size: calc(13px + (16 - 13) * ((100vw - 360px) / (1600 - 300))) !important
+}
+
+
+button:focus {
+    box-shadow: none !important;
+    outline-width: 0
+}
+
+.modal-body .btn-danger {
+    border-radius: 11px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2)
+}
+
+.btn-light {
+    background: transparent !important;
+    border: 0px !important
+}
+
+.btn-light:hover {
+    border-color: #fff !important
+}
+
+.btn-light:active {
+    border-color: #fff !important
+}
+
+span {
+    font-size: 30px !important
+}
+
+.modal-content {
+    background: transparent !important
+}
+
+.card {
+    margin-bottom: 0rem !important;
+}
+
+/** CSS para RESPONSIVE LISTAS**/
+@media (max-width: 685px) {
+    .projects{
+        overflow-x: scroll;
+        display: block;
+    }
+} 
